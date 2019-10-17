@@ -25,6 +25,12 @@ public class Model {
 		switch (operator){
 			case "+/-":
 				return 0-number;
+			case "1/x":
+				return 1/number;
+			case "√":
+				return (float) Math.sqrt(number);
+			case "x²":
+				return number*number;
 			default:
 				return 0;
 		}
